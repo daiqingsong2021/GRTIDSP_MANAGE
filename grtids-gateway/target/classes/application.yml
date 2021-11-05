@@ -1,0 +1,60 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: grtidsp-gateway
+  profiles:
+    active: local
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes:
+        - id:  apiconsumer ##路由 ID（不是网关ID），保持唯一
+          #目标服务地址 （加 lb 根据注册中心服务名匹配）
+          uri: lb://node-center
+          predicates:
+            #   #路由条件，Predicate 接受一个输入参数，返回一个布尔值结果。该接口包含多种默认方法来将 Predicate 组合成其他复杂的逻辑（比如：与，或，非）
+            - Path=/node-center/**
+          #必须加上StripPrefix=1，否则访问服务时会带上provider
+          filters:
+            - name: RequestRateLimiter
+              args:
+                #用于限流的键的解析器的 Bean 对象的名字,使用 SpEL 表达式根据#{@beanName}获取Bean对象
+                key-resolver: '#{@ipAddrKeyResolver}'
+                #令牌桶填充速率
+                redis-rate-limiter.replenishRate: 1
+                #令牌桶总容量
+                redis-rate-limiter.burstCapacity: 3
+            - name: Hystrix # Hystrix Filter的名称、设置成默认的
+              args: # Hystrix 配置参数
+                name: fallbackcmd # HystrixCommand 的名字
+                fallbackUri: forward:/fallback # fallback对用的uri
+      discovery:
+        locator:
+          enabled: true  #表明gateway开启服务注册和发现的功能，并且spring cloud gateway自动根据服务发现为每一个服务创建了一个router，这个router将以服务名开头的请求路径转发到对应的服务
+          lower-case-service-id: true  #是将请求路径上的服务名配置为小写（因为服务注册的时候，向注册中心注册时将服务名转成大写的了
+# ribbon负载均衡
+my-load-balanced-service:
+  ribbon:
+    listOfServers: localhost:8890, localhost:8002
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    NFLoadBalancerPingClassName: com.grtids.gateway.common.HealthExamination
+# Hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000 # Hystrix 的 fallbackcmd 时间
+  threadpool:
+    default:
+      coreSize: 100 # Hystrix 更改默认并发数配置

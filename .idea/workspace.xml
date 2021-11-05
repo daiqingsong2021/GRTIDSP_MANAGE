@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8faaa44-d732-4ba5-a82a-e277bc6f3f78" name="Default Changelist" comment="" />
+    <list default="true" id="b8faaa44-d732-4ba5-a82a-e277bc6f3f78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/GrtidspErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/GrtidspResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/controller/FallBackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/RedisTokenUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-master.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grtids-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grtids-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,10 +46,17 @@
     </option>
   </component>
   <component name="ProjectId" id="20JHIuy6i4B6h04Qjnthc9HSWVF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grtids-nacos/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,7 +67,24 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.grtids.gateway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\GRTIDSP_MANAGE\grtids-nacos\src\main\resources" />
+      <recent name="D:\ideaworkspace\GRTIDSP_MANAGE\grtids-gateway\src\main\resources" />
+      <recent name="D:\ideaworkspace\GRTIDSP_MANAGE\grtids-gateway\src\main\java\com\grtids\gateway\common" />
+      <recent name="D:\ideaworkspace\GRTIDSP_MANAGE\grtids-gateway\src\main\java\com\grtids\gateway\util" />
+      <recent name="D:\ideaworkspace\GRTIDSP_MANAGE\grtids-gateway\src\main\java\com\grtids\gateway\controller" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -40,6 +94,26 @@
           <option name="name" value="StatusDashboardGroupingRule" />
         </RuleState>
       </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="grtids-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grtids.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.1958042" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -53,11 +127,28 @@
       <option name="presentableId" value="Default" />
       <updated>1635755693120</updated>
       <workItem from="1635755695710" duration="1031000" />
-      <workItem from="1635814477794" duration="1232000" />
+      <workItem from="1635814477794" duration="5880000" />
+      <workItem from="1635821548370" duration="1812000" />
+      <workItem from="1635823393587" duration="1080000" />
+      <workItem from="1635824499117" duration="1711000" />
+      <workItem from="1635906338896" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
