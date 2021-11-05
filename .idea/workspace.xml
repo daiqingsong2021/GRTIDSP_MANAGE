@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8faaa44-d732-4ba5-a82a-e277bc6f3f78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/GrtidspErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/GrtidspResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/common/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/controller/FallBackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/RedisTokenUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/java/com/grtids/gateway/util/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-master.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grtids-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grtids-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/grtids-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GRTIDSP_NODE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -48,6 +35,7 @@
   <component name="ProjectId" id="20JHIuy6i4B6h04Qjnthc9HSWVF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -56,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/grtids-nacos/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GRTIDSP_NODE" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NodeApplication2">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="grtids-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.grtids.gateway.GatewayApplication" />
@@ -104,13 +92,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="GRTIDSP_NODE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grtidsp.node.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grtidsp.node.NodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="GRTIDSP_NODE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grtidsp.node.NodeApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8003" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="GRTIDSP_NODE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grtidsp.node.NodeApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8004" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.NodeApplication1" />
+      <item itemvalue="Spring Boot.NodeApplication2" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.NodeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NodeApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
         <option name="contentProportion" value="0.1958042" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@770c105c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -132,7 +169,17 @@
       <workItem from="1635823393587" duration="1080000" />
       <workItem from="1635824499117" duration="1711000" />
       <workItem from="1635906338896" duration="21000" />
+      <workItem from="1636073900532" duration="1412000" />
+      <workItem from="1636075334912" duration="5312000" />
     </task>
+    <task id="LOCAL-00001" summary="parent commit --daiqingsong">
+      <created>1636080606868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636080606868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +197,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="parent commit --daiqingsong" />
+    <option name="LAST_COMMIT_MESSAGE" value="parent commit --daiqingsong" />
   </component>
 </project>

@@ -39,7 +39,7 @@ spring:
 # ribbon负载均衡
 my-load-balanced-service:
   ribbon:
-    listOfServers: localhost:8890, localhost:8002
+    listOfServers: localhost:8890, localhost:8003, localhost:8004
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
     NFLoadBalancerPingClassName: com.grtids.gateway.common.HealthExamination
 # Hystrix 配置
