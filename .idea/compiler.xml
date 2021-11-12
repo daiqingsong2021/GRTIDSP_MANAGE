@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="grtidsp-node" />
         <module name="grtids-gateway" />
-        <module name="GRTIDSP_NODE" />
+        <module name="grtidsp-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,8 @@
       <module name="GRTIDSP_NODE" options="-parameters" />
       <module name="grtids-gateway" options="-parameters" />
       <module name="grtids-nacos" options="-parameters" />
+      <module name="grtidsp-common" options="-parameters" />
+      <module name="grtidsp-node" options="-parameters" />
     </option>
   </component>
 </project>
