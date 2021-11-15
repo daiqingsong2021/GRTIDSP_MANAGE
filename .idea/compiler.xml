@@ -18,7 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="GRTIDSP_NODE" options="-parameters" />
+      <module name="GRTIDSP_NODE" options="" />
       <module name="grtids-gateway" options="-parameters" />
       <module name="grtids-nacos" options="-parameters" />
       <module name="grtidsp-common" options="-parameters" />
